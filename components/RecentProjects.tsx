@@ -1,14 +1,13 @@
 import { projects } from "@/data";
 import Image from "next/image";
 import { FC } from "react";
-import { FaLocationArrow } from "react-icons/fa";
 import { PinContainer } from "./ui/3d-pin";
 
 export const RecentProjects: FC = () => {
 	return (
 		<div className="py-20" id="projects">
 			<h1 className="heading">
-				A small selection of{" "}
+				A small selection of
 				<span className="text-purple">recent projects</span>
 			</h1>
 			<div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10">
@@ -20,13 +19,13 @@ export const RecentProjects: FC = () => {
 						<PinContainer title={link} href={link}>
 							<div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden h-[30vh] lg:g-[30vh] mb-10 sm:h-[40vh]">
 								<div className="relative overflow-hidden lg:rounded-3xl bg-[#13162d] w-full h-full">
-									<Image src="/bg.png" alt="bg-img" width={220} height={100} />
+									<Image src="/bg.png" alt="bg-img" width={440} height={100} />
 								</div>
 								<Image
 									src={img}
 									alt={title}
 									className="z-10 absolute bottom-0"
-									width={220}
+									width={330}
 									height={100}
 								/>
 							</div>
@@ -56,12 +55,12 @@ export const RecentProjects: FC = () => {
 									))}
 								</div>
 
-								<div className="flex justify-center items-center">
+								{/* <div className="flex justify-center items-center">
 									<p className="flex lg:text-xl md:text-sm text-sm text-purple">
 										Check Live Site
 									</p>
 									<FaLocationArrow className="ms-3" color="#CBACF9" />
-								</div>
+								</div> */}
 							</div>
 						</PinContainer>
 					</div>

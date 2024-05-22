@@ -1,7 +1,7 @@
 export const navItems = [
 	{ name: "About", link: "#about" },
 	{ name: "Projects", link: "#projects" },
-	{ name: "Testimonials", link: "#testimonials" },
+	{ name: "Experience", link: "#experience" },
 	{ name: "Contact", link: "#contact" },
 ];
 
@@ -49,7 +49,7 @@ export const gridItems = [
 
 	{
 		id: 5,
-		title: "Currently building a JS Animation library",
+		title: "Currently building a fullstack ToDo app",
 		description: "The Inside Scoop",
 		className: "md:col-span-3 md:row-span-2",
 		imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,70 +72,77 @@ export const gridItems = [
 export const projects = [
 	{
 		id: 1,
-		title: "3D Solar System Planets to Explore",
-		des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-		img: "/p1.svg",
-		iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-		link: "https://github.com/adrianhajdin?tab=repositories",
+		title: "TodoIt! It's a Fullstack ToDo app",
+		des: "TodoIt is a modern fullstack ToDo application designed to boost productivity and organize daily tasks efficiently. Offering a sleek user interface, robust functionality, and real-time synchronization, TodoIt is the go-to solution for managing personal and professional tasks. Tailored to the needs of the busy individual, TodoIt combines React, Chakra UI, TypeScript, MongoDB, Express.js, and Docker in its tech stack to provide a seamless task management experience.",
+		img: "/p1.png",
+		iconLists: [
+			"/re.svg",
+			"/chakra.svg",
+			"/ts.svg",
+			"/mongo.svg",
+			"/express.svg",
+			"/dock.svg",
+		],
+		link: "https://github.com/ArseniyMuravyev/TodoIt",
 	},
 	{
 		id: 2,
-		title: "Yoom - Video Conferencing App",
-		des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-		img: "/p2.svg",
-		iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-		link: "https://github.com/adrianhajdin/zoom-clone",
+		title: "Stellar Burgers",
+		des: "Stellar Burgers takes you on an interstellar culinary journey with its immersive space-themed burger shop experience. This is not just a place to eat; it's an adventure into the cosmos, where each bite is a flavor explosion akin to a supernova. Utilizing React, Redux, TypeScript, and Sass in its tech stack, Stellar Burgers offers a futuristic take on the classic burger joint. Follow the project’s development and prepare for liftoff on a taste journey like no other",
+		img: "/p2.png",
+		iconLists: ["/re.svg", "/redux.svg", "/ts.svg", "/sass.svg"],
+		link: "https://github.com/ArseniyMuravyev/stellar-burgers",
 	},
 	{
 		id: 3,
-		title: "AI Image SaaS - Canva Application",
-		des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-		img: "/p3.svg",
-		iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-		link: "https://github.com/adrianhajdin/ai_saas_app",
+		title: "This beautiful portfolio",
+		des: "Crafted as a showcase of innovation and design, this portfolio is built to impress. Within its pages, you'll find a dynamic blend of AI integration, a sophisticated payment and credit system, all leveraging cutting-edge technology. React forms the backbone, enhanced with Tailwind CSS for style and animations, TypeScript for robust typing, alongside Three.js and C for groundbreaking visuals. Discover the future of digital portfolios and explore creative wonders that blend form with function.",
+		img: "/p3.png",
+		iconLists: ["/re.svg", "/vercel.ico", "/ts.svg", "/next.svg", "/tail.svg"],
+		link: "https://github.com/ArseniyMuravyev/Portfolio",
 	},
 	{
 		id: 4,
-		title: "Animated Apple Iphone 3D Website",
-		des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-		img: "/p4.svg",
-		iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-		link: "https://github.com/adrianhajdin/iphone",
+		title: "React Chess",
+		des: "Dive into the strategy-filled world of chess with a technological twist. React Chess is an elegant and responsive web application that captures the essence of the classic game with a modern touch. Featuring a range of animations and 3D effects that leverage the power of GSAP and Three.js, React Chess is built upon the robust Next.js framework with Tailwind CSS for styling, offering an immersive experience that's both visually appealing and intellectually stimulating.",
+		img: "/p4.png",
+		iconLists: ["/re.svg", "/ts.svg", "/sass.svg"],
+		link: "https://github.com/ArseniyMuravyev/react-chess",
 	},
 ];
 
-export const testimonials = [
-	{
-		quote:
-			"Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-		name: "Michael Johnson",
-		title: "Director of AlphaStream Technologies",
-	},
-	{
-		quote:
-			"Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-		name: "Michael Johnson",
-		title: "Director of AlphaStream Technologies",
-	},
-	{
-		quote:
-			"Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-		name: "Michael Johnson",
-		title: "Director of AlphaStream Technologies",
-	},
-	{
-		quote:
-			"Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-		name: "Michael Johnson",
-		title: "Director of AlphaStream Technologies",
-	},
-	{
-		quote:
-			"Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-		name: "Michael Johnson",
-		title: "Director of AlphaStream Technologies",
-	},
-];
+// export const testimonials = [
+// 	{
+// 		quote:
+// 			"Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+// 		name: "Michael Johnson",
+// 		title: "Director of AlphaStream Technologies",
+// 	},
+// 	{
+// 		quote:
+// 			"Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+// 		name: "Michael Johnson",
+// 		title: "Director of AlphaStream Technologies",
+// 	},
+// 	{
+// 		quote:
+// 			"Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+// 		name: "Michael Johnson",
+// 		title: "Director of AlphaStream Technologies",
+// 	},
+// 	{
+// 		quote:
+// 			"Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+// 		name: "Michael Johnson",
+// 		title: "Director of AlphaStream Technologies",
+// 	},
+// 	{
+// 		quote:
+// 			"Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+// 		name: "Michael Johnson",
+// 		title: "Director of AlphaStream Technologies",
+// 	},
+// ];
 
 export const companies = [
 	{
@@ -179,25 +186,11 @@ export const workExperience = [
 		thumbnail: "/exp1.svg",
 	},
 	{
-		id: 2,
-		title: "Mobile App Dev - JSM Tech",
-		desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-		className: "md:col-span-2", 
-		thumbnail: "/exp2.svg",
-	},
-	{
 		id: 3,
-		title: "Freelance App Dev Project",
-		desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+		title: "Freelance Project",
+		desc: "Led the dev of website for a client, from initial concept to deployment.",
 		className: "md:col-span-2",
 		thumbnail: "/exp3.svg",
-	},
-	{
-		id: 4,
-		title: "Lead Frontend Developer",
-		desc: "Developed and maintained user-facing features using modern frontend technologies.",
-		className: "md:col-span-2",
-		thumbnail: "/exp4.svg",
 	},
 ];
 
@@ -205,13 +198,16 @@ export const socialMedia = [
 	{
 		id: 1,
 		img: "/git.svg",
+		link: "https://github.com/ArseniyMuravyev",
 	},
 	{
 		id: 2,
-		img: "/twit.svg",
+		img: "/insta.svg",
+		link: "https://www.instagram.com/muravyev_arseniy",
 	},
 	{
 		id: 3,
-		img: "/link.svg",
+		img: "/tele.svg",
+		link: "https://t.me/arseniyMuravyev",
 	},
 ];
