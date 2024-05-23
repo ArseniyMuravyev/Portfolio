@@ -35,7 +35,7 @@ export const Hero: FC = () => {
 					/>
 
 					<p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-						Hi, I&apos;m Arseniy, a React.js Developer based in Russia
+						Hi, I&apos;m Arseniy, a React Developer based in Russia
 					</p>
 					<a href="#about">
 						<MagicButton title="Show my work" icon={<FaLocationArrow />} />
