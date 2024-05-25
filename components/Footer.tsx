@@ -30,7 +30,7 @@ export const Footer: FC = () => {
 					Copyright © 2024 Arseniy
 				</p>
 
-				<div className="flex items-center md:gap-3 gap-6">
+				<div className="flex items-center md:gap-3 gap-6 md:mt-3">
 					{socialMedia.map(({ id, img, link }) => (
 						<a
 							key={id}
